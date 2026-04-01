@@ -1,4 +1,7 @@
 'use client';
+import Bars from './bars';
+import XAxis from './xAxis';
+import YAxis from './yAxis';
 function BarChart(props){
     const {offsetX, offsetY, data, xScale, yScale, height, width, onMouseOver, onMouseOut} = props;
     //task1: transform the <g> with the offsets so that the barchart can show properly 
