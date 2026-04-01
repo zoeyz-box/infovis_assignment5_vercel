@@ -1,3 +1,4 @@
+'use client';
 function Points(props) {
     const {data, xScale, yScale, height, width, selectedStation, onMouseOver, onMouseOut} = props;
 
