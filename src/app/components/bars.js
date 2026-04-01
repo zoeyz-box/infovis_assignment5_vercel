@@ -31,4 +31,4 @@ function Bars(props) {
     }
 }
 
-export default Bars
+export default Bars;
