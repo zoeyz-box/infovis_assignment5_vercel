@@ -1,3 +1,4 @@
+'use client';
 function Tooltip(props) {
     const {d, x, y} = props;
     //console.log(d);
