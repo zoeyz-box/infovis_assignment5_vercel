@@ -1,7 +1,8 @@
 {
   "name": "infovis-5",
   "version": "0.1.0",
-  "private": true,
+  "private": true, 
+  "main":  "assignment5_ZoeyZhang.js"
   "scripts": {
     "dev": "next dev",
     "build": "next build",
