@@ -30,4 +30,4 @@ function Tooltip(props) {
     };  
 }
 
-export default Tooltip
+export default Tooltip;
