@@ -1,3 +1,4 @@
+'use client';
 function Bars(props) {
     const {data, xScale, yScale, height, selectedStation, onMouseOver, onMouseOut} = props;
 
