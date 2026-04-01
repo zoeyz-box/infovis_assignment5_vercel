@@ -1,4 +1,7 @@
 'use client';
+import Points from './points';
+import XAxis from './xAxis';
+import YAxis from './yAxis';
 function ScatterPlot(props){
     const { offsetX, offsetY, data, xScale, yScale, height, width, selectedStation, onMouseOver, onMouseOut } = props;
     //task1: transform the <g> with the offsets so that the barchart can show properly 
