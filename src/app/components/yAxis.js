@@ -24,4 +24,4 @@ function YAxis(props){
 
 }
 
-export default YAxis
+export default YAxis;
