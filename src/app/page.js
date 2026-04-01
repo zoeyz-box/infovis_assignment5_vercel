@@ -135,4 +135,4 @@ export default function Home() {
             <Tooltip d={tooltipData} x={tooltipX} y={tooltipY}/>
         </Container>
     )   
-}
+};
