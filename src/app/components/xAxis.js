@@ -11,6 +11,7 @@
 // - data: the data items
 // - xScale: the scale for the x coordinate
 // - yScale: the scale for the y coordinate
+'use client';
 
 import {axisBottom} from 'd3';
 
