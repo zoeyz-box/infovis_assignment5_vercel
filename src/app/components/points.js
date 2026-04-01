@@ -38,8 +38,8 @@ function Points(props) {
             data.map((d, i) => (
                 <circle
                     key={`circle-${i}`}
-                    cx={xScale(d.start)}
-                    cy={yScale(d.end)}
+                    cx={xScale(d.tripdurationS)}
+                    cy={yScale(d.tripdurationE)}
                     r={getRadius(selectedStation, d.station)}
                     fill={getColor(selectedStation, d.station)}
                     opacity={0.8}
@@ -52,8 +52,8 @@ function Points(props) {
             selectedStation && data.filter(d => d.station == selectedStation).map((d, i) => (
                 <circle
                     key={`circle-${i}`}
-                    cx={xScale(d.start)}
-                    cy={yScale(d.end)}
+                    cx={xScale(d.tripdurationS)}
+                    cy={yScale(d.tripdurationE)}
                     r={getRadius(selectedStation, d.station)}
                     fill={getColor(selectedStation, d.station)}
                     opacity={0.8}
