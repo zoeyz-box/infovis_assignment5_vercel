@@ -70,4 +70,4 @@ function XAxis(props){
 }
 }
 
-export default XAxis
+export default XAxis;
