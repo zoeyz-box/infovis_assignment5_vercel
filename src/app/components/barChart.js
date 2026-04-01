@@ -11,4 +11,4 @@ function BarChart(props){
         </g>
 }
 
-export default BarChart
+export default BarChart;
