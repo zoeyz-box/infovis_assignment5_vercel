@@ -1,6 +1,4 @@
-
-
-
+'use client';
 function YAxis(props){
     const { yScale, height, axisLable } = props;
     if(yScale){
